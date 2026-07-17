@@ -1,4 +1,4 @@
-# MailChamp
+# [MailChamp](https://mailchamp-tau.vercel.app/)
 
 **AI-assisted email composition with a Gmail-quality archive UI**, backed by a research evaluation pipeline that compares prompting strategies on real scenarios.
 
