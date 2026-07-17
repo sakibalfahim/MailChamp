@@ -295,7 +295,7 @@ Checked-in winner (see `results/evaluation_report.json`): **advanced 0.8783** vs
 
 ## License
 
-No license file is attached yet. Treat as private/demo code until you add an SPDX license of your choice (MIT recommended for open demos).
+MIT License
 
 ---
 
