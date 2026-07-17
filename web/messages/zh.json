@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "MailChamp — 企业级 AI 邮件撰写",
+    "description": "具备高级提示、洞察与精致邮件归档体验的 Gmail 级 AI 邮件撰写。"
+  },
+  "nav": {
+    "product": "产品",
+    "blog": "博客",
+    "docs": "文档",
+    "pricing": "定价",
+    "about": "关于",
+    "contact": "联系",
+    "insights": "洞察",
+    "signIn": "登录",
+    "signUp": "注册",
+    "openApp": "打开应用",
+    "language": "语言",
+    "theme": "主题",
+    "themeSystem": "跟随系统",
+    "themeLight": "浅色",
+    "themeDark": "深色"
+  },
+  "landing": {
+    "eyebrow": "企业级 AI 撰写",
+    "headline": "MailChamp",
+    "subhead": "将意图、要点与语气变成董事会级草稿 — Gmail 级质感、研究驱动提示，不做虚假收件箱。",
+    "ctaPrimary": "免费开始",
+    "ctaSecondary": "查看洞察",
+    "scrollHint": "滚动故事",
+    "story1Title": "用策略撰写",
+    "story1Body": "在我们的 Python 评测中，高级提示优于朴素基线 — 高级得分 0.878。",
+    "story2Title": "归档体验，而非假装邮件",
+    "story2Body": "全部邮件、草稿、已发送、归档。三栏桌面壳。键盘优先。没有 SMTP 表演。",
+    "story3Title": "Gemini 仅在服务端",
+    "story3Body": "密钥从不进入浏览器。Next 向 Render 上的 Go API 签发短时 JWT。",
+    "featureAi": "AI 撰写抽屉",
+    "featureAiDesc": "意图、要点、语气与策略 — 数秒生成 TipTap 草稿。",
+    "featureMail": "真实邮件界面",
+    "featureMailDesc": "密集列表、阅读窗格、归档、硬删除 — 为速度而生。",
+    "featureInsights": "评测洞察",
+    "featureInsightsDesc": "来自真实 Python 评测报告的 Recharts — 不是虚荣指标。"
+  },
+  "auth": {
+    "loginTitle": "欢迎回来",
+    "signupTitle": "创建账户",
+    "name": "姓名",
+    "email": "邮箱",
+    "password": "密码",
+    "submitLogin": "登录",
+    "submitSignup": "创建账户",
+    "noForgot": "请记住密码 — v1 不提供重置邮件。",
+    "toLogin": "已有账户？登录",
+    "toSignup": "需要账户？注册"
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "关于提示、评测与产品工艺的笔记。",
+    "readMore": "阅读",
+    "englishOnly": "全文目前为英文。"
+  },
+  "docs": {
+    "title": "文档",
+    "subtitle": "快速上手 MailChamp。",
+    "gettingStarted": "入门",
+    "gettingStartedBody": "注册，打开撰写，输入意图+要点+语气，生成，然后保存草稿或标记已发送。",
+    "folders": "文件夹",
+    "foldersBody": "全部邮件显示草稿与已发送。草稿、已发送、归档与状态一一对应。删除不可恢复。",
+    "api": "API 与安全",
+    "apiBody": "Gemini 仅在 Go 中运行。浏览器与 Next 通信；Next 为 API 签发短 JWT。免费层冷启动最长约 90 秒。",
+    "prompts": "提示词",
+    "promptsBody": "编辑根目录 prompts/，同步到 api/prompts/，重新部署 API。"
+  },
+  "pricing": {
+    "title": "定价",
+    "subtitle": "真正的 $0 技术栈。无银行卡。无意外。",
+    "freeName": "永久免费",
+    "freePrice": "$0",
+    "freeDesc": "个人/作品集演示可用完整撰写、邮件归档与洞察。",
+    "freeCta": "开始使用",
+    "teamName": "团队（样式预览）",
+    "teamPrice": "即将推出",
+    "teamDesc": "共享工作区与 SSO 尚未上线 — 此卡片仅为企业视觉。",
+    "teamCta": "稍后通知",
+    "note": "Vercel Hobby 非商业用途。若日后商业化将离开 Hobby — 这是政策，不是今天的账单陷阱。"
+  },
+  "about": {
+    "title": "关于",
+    "body1": "MailChamp 始于比较高级与朴素邮件提示策略的研究评测 CLI。",
+    "body2": "我们保留 Python 流水线作为洞察的真实来源，再围绕获胜方案包裹 Gmail 级 Web UX。",
+    "body3": "栈哲学：自有 Postgres、服务端密钥、$0 可维护，交付企业质感却不收企业发票。"
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "打个招呼 — v1 无 SMTP；我们用预填内容打开你的邮件客户端。",
+    "name": "姓名",
+    "email": "邮箱",
+    "message": "留言",
+    "submit": "打开邮件客户端",
+    "hint": "仓库发布后更推荐 GitHub Issues。"
+  },
+  "footer": {
+    "tagline": "企业风格 AI 撰写。研究背书。$0 技术栈。",
+    "rights": "MailChamp"
+  },
+  "mail": {
+    "allMail": "全部邮件",
+    "drafts": "草稿",
+    "sent": "已发送",
+    "archive": "归档",
+    "compose": "撰写",
+    "insights": "洞察",
+    "signOut": "退出",
+    "search": "搜索邮件",
+    "waking": "正在唤醒 API…"
+  }
+}

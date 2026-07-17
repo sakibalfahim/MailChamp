@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "MailChamp — Enterprise AI Email Compose",
+    "description": "Gmail-quality AI email compose with advanced prompting, insights, and a polished mail archive UX."
+  },
+  "nav": {
+    "product": "Product",
+    "blog": "Blog",
+    "docs": "Docs",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "insights": "Insights",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "openApp": "Open app",
+    "language": "Language",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "landing": {
+    "eyebrow": "Enterprise AI compose",
+    "headline": "MailChamp",
+    "subhead": "Turn intent, facts, and tone into boardroom-ready drafts — Gmail-quality polish, research-backed prompts, zero inbox fiction.",
+    "ctaPrimary": "Start free",
+    "ctaSecondary": "See insights",
+    "scrollHint": "Scroll the story",
+    "story1Title": "Compose with strategy",
+    "story1Body": "Advanced chain-of-thought prompting outperforms naive baselines in our Python eval — advanced wins at 0.878.",
+    "story2Title": "Archive UX, not pretend mail",
+    "story2Body": "All Mail, Drafts, Sent, and Archive. Three-pane desktop shell. Keyboard-first. No SMTP theater.",
+    "story3Title": "Gemini stays server-side",
+    "story3Body": "Keys never touch the browser. Next proxies short-lived JWTs to our Go API on Render.",
+    "featureAi": "AI compose drawer",
+    "featureAiDesc": "Intent, key facts, tone, and strategy — TipTap drafts in seconds.",
+    "featureMail": "Real mail chrome",
+    "featureMailDesc": "Dense list, reading pane, archive, hard delete — built for speed.",
+    "featureInsights": "Eval insights",
+    "featureInsightsDesc": "Recharts from our real Python evaluation report — not vanity metrics."
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "signupTitle": "Create your account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "submitLogin": "Sign in",
+    "submitSignup": "Create account",
+    "noForgot": "Remember your password — reset email is not available in v1.",
+    "toLogin": "Already have an account? Sign in",
+    "toSignup": "Need an account? Sign up"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Notes on prompting, eval, and product craft.",
+    "readMore": "Read",
+    "englishOnly": "Full article currently in English."
+  },
+  "docs": {
+    "title": "Docs",
+    "subtitle": "Get productive with MailChamp fast.",
+    "gettingStarted": "Getting started",
+    "gettingStartedBody": "Sign up, open Compose, enter intent + facts + tone, Generate, then Save Draft or Mark Sent.",
+    "folders": "Folders",
+    "foldersBody": "All Mail shows drafts and sent. Drafts, Sent, and Archive map 1:1 to status. Delete is permanent.",
+    "api": "API & security",
+    "apiBody": "Gemini runs only in Go. The browser talks to Next; Next mints a short JWT for the API. Cold starts can take up to ~90s on free tiers.",
+    "prompts": "Prompts",
+    "promptsBody": "Edit root prompts/, sync to api/prompts/, redeploy the API."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Built on a true $0 stack. No cards. No surprises.",
+    "freeName": "Free forever",
+    "freePrice": "$0",
+    "freeDesc": "Full compose, mail archive, and Insights for personal / portfolio demos.",
+    "freeCta": "Get started",
+    "teamName": "Team (style preview)",
+    "teamPrice": "Soon",
+    "teamDesc": "Shared workspaces and SSO are not shipping yet — this card is enterprise chrome only.",
+    "teamCta": "Notify later",
+    "note": "Vercel Hobby is non-commercial. If we monetize later, we leave Hobby — that's policy, not a billing trap today."
+  },
+  "about": {
+    "title": "About",
+    "body1": "MailChamp started as a research eval CLI comparing advanced vs naive email prompting strategies.",
+    "body2": "We kept the Python pipeline as the source of truth for Insights, then wrapped a Gmail-quality web UX around the winning approach.",
+    "body3": "Stack philosophy: own our Postgres, keep secrets server-side, stay $0-maintainable, ship enterprise polish without enterprise invoices."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Say hello — no SMTP backend in v1; we open your mail client with a prefilled message.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Open mail client",
+    "hint": "Prefer GitHub issues on the project repo once published."
+  },
+  "footer": {
+    "tagline": "Enterprise-style AI compose. Research-backed. $0 stack.",
+    "rights": "MailChamp"
+  },
+  "mail": {
+    "allMail": "All Mail",
+    "drafts": "Drafts",
+    "sent": "Sent",
+    "archive": "Archive",
+    "compose": "Compose",
+    "insights": "Insights",
+    "signOut": "Sign out",
+    "search": "Search mail",
+    "waking": "Waking API…"
+  }
+}

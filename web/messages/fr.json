@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "MailChamp — Rédaction d'e-mails IA entreprise",
+    "description": "Rédaction d'e-mails IA qualité Gmail avec prompts avancés, insights et archive soignée."
+  },
+  "nav": {
+    "product": "Produit",
+    "blog": "Blog",
+    "docs": "Docs",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "insights": "Insights",
+    "signIn": "Connexion",
+    "signUp": "Inscription",
+    "openApp": "Ouvrir l'app",
+    "language": "Langue",
+    "theme": "Thème",
+    "themeSystem": "Système",
+    "themeLight": "Clair",
+    "themeDark": "Sombre"
+  },
+  "landing": {
+    "eyebrow": "Rédaction IA entreprise",
+    "headline": "MailChamp",
+    "subhead": "Transformez intention, faits et ton en brouillons prêts pour le board — finition Gmail, prompts issus de la recherche, zéro fiction d'inbox.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Voir les insights",
+    "scrollHint": "Faire défiler l'histoire",
+    "story1Title": "Rédiger avec stratégie",
+    "story1Body": "Les prompts avancés battent la baseline naïve dans notre eval Python — avancé gagne à 0,878.",
+    "story2Title": "UX d'archive, pas de faux mail",
+    "story2Body": "Tout le courrier, Brouillons, Envoyés, Archive. Coque trois volets. Clavier d'abord. Pas de théâtre SMTP.",
+    "story3Title": "Gemini reste côté serveur",
+    "story3Body": "Les clés ne touchent jamais le navigateur. Next émet un JWT court vers notre API Go sur Render.",
+    "featureAi": "Tiroir de rédaction IA",
+    "featureAiDesc": "Intention, faits clés, ton et stratégie — brouillons TipTap en secondes.",
+    "featureMail": "Chrome mail réel",
+    "featureMailDesc": "Liste dense, volet lecture, archive, suppression définitive — pour la vitesse.",
+    "featureInsights": "Insights d'évaluation",
+    "featureInsightsDesc": "Recharts issus de notre vrai rapport Python — pas de vanity metrics."
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "signupTitle": "Créez votre compte",
+    "name": "Nom",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submitLogin": "Connexion",
+    "submitSignup": "Créer un compte",
+    "noForgot": "Mémorisez votre mot de passe — pas de reset e-mail en v1.",
+    "toLogin": "Déjà un compte ? Connexion",
+    "toSignup": "Besoin d'un compte ? Inscription"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Notes sur le prompting, l'eval et le craft produit.",
+    "readMore": "Lire",
+    "englishOnly": "Article complet actuellement en anglais."
+  },
+  "docs": {
+    "title": "Docs",
+    "subtitle": "Devenez productif avec MailChamp rapidement.",
+    "gettingStarted": "Démarrage",
+    "gettingStartedBody": "Inscrivez-vous, ouvrez Composer, saisissez intention + faits + ton, Générez, puis Enregistrer brouillon ou Marquer envoyé.",
+    "folders": "Dossiers",
+    "foldersBody": "Tout le courrier montre brouillons et envoyés. Brouillons, Envoyés et Archive mappent 1:1 au statut. Suppression définitive.",
+    "api": "API et sécurité",
+    "apiBody": "Gemini tourne uniquement en Go. Le navigateur parle à Next ; Next émet un court JWT pour l'API. Démarrage à froid jusqu'à ~90 s sur free tier.",
+    "prompts": "Prompts",
+    "promptsBody": "Éditez prompts/ à la racine, synchronisez vers api/prompts/, redéployez l'API."
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Stack vraiment à $0. Pas de carte. Pas de surprise.",
+    "freeName": "Gratuit pour toujours",
+    "freePrice": "$0",
+    "freeDesc": "Compose, archive mail et Insights complets pour démos perso / portfolio.",
+    "freeCta": "Commencer",
+    "teamName": "Équipe (aperçu style)",
+    "teamPrice": "Bientôt",
+    "teamDesc": "Espaces partagés et SSO ne shippent pas encore — carte chrome entreprise uniquement.",
+    "teamCta": "Me prévenir plus tard",
+    "note": "Vercel Hobby est non commercial. Si monétisation plus tard, on quitte Hobby — politique, pas piège de facturation aujourd'hui."
+  },
+  "about": {
+    "title": "À propos",
+    "body1": "MailChamp a commencé comme CLI d'eval recherche comparant prompts avancés vs naïfs.",
+    "body2": "Nous avons gardé le pipeline Python comme source de vérité des Insights, puis enveloppé une UX web qualité Gmail autour de l'approche gagnante.",
+    "body3": "Philosophie stack : posséder Postgres, secrets côté serveur, rester maintenable à $0, livrer du polish entreprise sans factures entreprise."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Dites bonjour — pas de SMTP en v1 ; nous ouvrons votre client mail avec un message prérempli.",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "submit": "Ouvrir le client mail",
+    "hint": "Préférez les issues GitHub une fois le dépôt publié."
+  },
+  "footer": {
+    "tagline": "Compose IA style entreprise. Ancré dans la recherche. Stack $0.",
+    "rights": "MailChamp"
+  },
+  "mail": {
+    "allMail": "Tout le courrier",
+    "drafts": "Brouillons",
+    "sent": "Envoyés",
+    "archive": "Archive",
+    "compose": "Composer",
+    "insights": "Insights",
+    "signOut": "Déconnexion",
+    "search": "Rechercher",
+    "waking": "Réveil de l'API…"
+  }
+}

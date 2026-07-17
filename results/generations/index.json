@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-07-15T16:21:35.618658+00:00",
+  "model": "gemini-3.1-flash-lite-preview",
+  "items": [
+    {
+      "scenario_id": "01",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/01.txt",
+      "error": null,
+      "chars": 899
+    },
+    {
+      "scenario_id": "02",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/02.txt",
+      "error": null,
+      "chars": 613
+    },
+    {
+      "scenario_id": "03",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/03.txt",
+      "error": null,
+      "chars": 709
+    },
+    {
+      "scenario_id": "04",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/04.txt",
+      "error": null,
+      "chars": 478
+    },
+    {
+      "scenario_id": "05",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/05.txt",
+      "error": null,
+      "chars": 503
+    },
+    {
+      "scenario_id": "06",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/06.txt",
+      "error": null,
+      "chars": 663
+    },
+    {
+      "scenario_id": "07",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/07.txt",
+      "error": null,
+      "chars": 573
+    },
+    {
+      "scenario_id": "08",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/08.txt",
+      "error": null,
+      "chars": 474
+    },
+    {
+      "scenario_id": "09",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/09.txt",
+      "error": null,
+      "chars": 814
+    },
+    {
+      "scenario_id": "10",
+      "strategy": "advanced",
+      "path": "results/generations/advanced/10.txt",
+      "error": null,
+      "chars": 396
+    },
+    {
+      "scenario_id": "01",
+      "strategy": "naive",
+      "path": "results/generations/naive/01.txt",
+      "error": null,
+      "chars": 935
+    },
+    {
+      "scenario_id": "02",
+      "strategy": "naive",
+      "path": "results/generations/naive/02.txt",
+      "error": null,
+      "chars": 906
+    },
+    {
+      "scenario_id": "03",
+      "strategy": "naive",
+      "path": "results/generations/naive/03.txt",
+      "error": null,
+      "chars": 1073
+    },
+    {
+      "scenario_id": "04",
+      "strategy": "naive",
+      "path": "results/generations/naive/04.txt",
+      "error": null,
+      "chars": 703
+    },
+    {
+      "scenario_id": "05",
+      "strategy": "naive",
+      "path": "results/generations/naive/05.txt",
+      "error": null,
+      "chars": 688
+    },
+    {
+      "scenario_id": "06",
+      "strategy": "naive",
+      "path": "results/generations/naive/06.txt",
+      "error": null,
+      "chars": 1052
+    },
+    {
+      "scenario_id": "07",
+      "strategy": "naive",
+      "path": "results/generations/naive/07.txt",
+      "error": null,
+      "chars": 757
+    },
+    {
+      "scenario_id": "08",
+      "strategy": "naive",
+      "path": "results/generations/naive/08.txt",
+      "error": null,
+      "chars": 560
+    },
+    {
+      "scenario_id": "09",
+      "strategy": "naive",
+      "path": "results/generations/naive/09.txt",
+      "error": null,
+      "chars": 1428
+    },
+    {
+      "scenario_id": "10",
+      "strategy": "naive",
+      "path": "results/generations/naive/10.txt",
+      "error": null,
+      "chars": 474
+    }
+  ]
+}

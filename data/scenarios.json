@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "intent": "Follow up after a product demo meeting",
+    "key_facts": [
+      "Demo held on March 12, 2026",
+      "Prospect company is Northwind Analytics",
+      "Requested pricing for the Enterprise tier",
+      "Next step is a technical call with their CTO, Priya Shah"
+    ],
+    "tone": "formal",
+    "human_reference": "Subject: Follow-Up on March 12 Demo — Northwind Analytics\n\nDear Ms. Shah,\n\nThank you for taking the time to meet with us on March 12, 2026, for the product demo. I appreciated the thoughtful questions from the Northwind Analytics team.\n\nAs discussed, I have attached pricing details for our Enterprise tier. I would also like to schedule a technical call with you, Priya Shah, and your engineering leads to address integration questions.\n\nPlease let me know your availability next week, and I will send a calendar invite.\n\nBest regards,\nAlex Morgan\nAccount Executive"
+  },
+  {
+    "id": "02",
+    "intent": "Request proposal details from a vendor",
+    "key_facts": [
+      "RFP reference number RFP-2026-044",
+      "Need itemized pricing and delivery timeline",
+      "Submission deadline is April 3, 2026",
+      "Contact person is procurement lead Jordan Lee"
+    ],
+    "tone": "formal",
+    "human_reference": "Subject: RFP-2026-044 — Request for Itemized Proposal Details\n\nDear Jordan Lee,\n\nWe are reviewing responses for RFP reference number RFP-2026-044 and would appreciate a revised proposal that includes itemized pricing and a clear delivery timeline.\n\nTo remain compliant with our internal review process, we need your updated submission no later than April 3, 2026.\n\nPlease confirm receipt of this request and share the revised documents at your earliest convenience.\n\nSincerely,\nMorgan Blake\nProcurement Manager"
+  },
+  {
+    "id": "03",
+    "intent": "Apologize for a delayed shipment to a customer",
+    "key_facts": [
+      "Order number ORD-77821",
+      "Original delivery date was June 2, 2026",
+      "New estimated delivery is June 9, 2026",
+      "Offer 15% discount on the next order"
+    ],
+    "tone": "empathetic",
+    "human_reference": "Subject: Update on Order ORD-77821\n\nHi Taylor,\n\nI am sorry for the inconvenience caused by the delay on order ORD-77821. I know you were expecting delivery on June 2, 2026, and I understand how disruptive this can be.\n\nOur logistics team has confirmed a new estimated delivery date of June 9, 2026. To make this right, we are offering a 15% discount on your next order.\n\nThank you for your patience. Please reply if you would like us to expedite any portion of the shipment.\n\nWarm regards,\nSam Rivera\nCustomer Success"
+  },
+  {
+    "id": "04",
+    "intent": "Introduce yourself to a potential collaborator at a conference",
+    "key_facts": [
+      "Met at DataSummit 2026 in Austin",
+      "You work on NLP evaluation pipelines",
+      "Interested in co-authoring a workshop paper",
+      "Suggest a 30-minute Zoom call next Tuesday"
+    ],
+    "tone": "casual",
+    "human_reference": "Subject: Great meeting you at DataSummit 2026\n\nHi Jamie,\n\nIt was great connecting with you at DataSummit 2026 in Austin. I really enjoyed our chat about applied NLP evaluation pipelines.\n\nI would love to explore co-authoring a workshop paper together. If you are open to it, could we do a quick 30-minute Zoom call next Tuesday to compare notes?\n\nLooking forward to hearing from you.\n\nCheers,\nRiley Chen"
+  },
+  {
+    "id": "05",
+    "intent": "Chase a overdue invoice payment",
+    "key_facts": [
+      "Invoice INV-3390 for $4,800",
+      "Due date was May 15, 2026",
+      "Payment terms are Net 30",
+      "Request confirmation of payment date"
+    ],
+    "tone": "urgent",
+    "human_reference": "Subject: Urgent: Overdue Invoice INV-3390 ($4,800)\n\nHello Finance Team,\n\nInvoice INV-3390 for $4,800 was due on May 15, 2026 under Net 30 payment terms and remains unpaid.\n\nPlease confirm the payment date today so we can update our records and avoid service interruption.\n\nThank you for your immediate attention.\n\nRegards,\nCasey Nguyen\nBilling Operations"
+  },
+  {
+    "id": "06",
+    "intent": "Thank a mentor after a career advice session",
+    "key_facts": [
+      "Mentorship session on May 28, 2026",
+      "Advice focused on transitioning to staff engineer",
+      "You will apply the 90-day growth plan discussed",
+      "Offer to share progress in one month"
+    ],
+    "tone": "empathetic",
+    "human_reference": "Subject: Thank you for the mentorship session\n\nDear Dr. Patel,\n\nThank you for meeting with me on May 28, 2026. Your guidance on transitioning to staff engineer was incredibly helpful and gave me much-needed clarity.\n\nI plan to follow the 90-day growth plan we discussed and would love to share my progress with you in one month.\n\nI truly appreciate your time and support.\n\nBest,\nNoah Williams"
+  },
+  {
+    "id": "07",
+    "intent": "Request to reschedule a client kickoff meeting",
+    "key_facts": [
+      "Original meeting scheduled for July 8, 2026 at 10:00 AM ET",
+      "Conflict due to internal audit review",
+      "Propose July 10, 2026 at 2:00 PM ET",
+      "Kickoff agenda remains unchanged"
+    ],
+    "tone": "formal",
+    "human_reference": "Subject: Request to Reschedule July 8 Kickoff Meeting\n\nDear Ms. Alvarez,\n\nI am writing to request a reschedule of our client kickoff meeting originally planned for July 8, 2026 at 10:00 AM ET due to an internal audit review.\n\nWould July 10, 2026 at 2:00 PM ET work for your team? The kickoff agenda remains unchanged.\n\nPlease confirm your availability, and I will update the calendar invite accordingly.\n\nKind regards,\nElena Brooks\nProject Manager"
+  },
+  {
+    "id": "08",
+    "intent": "Request feedback on a draft project proposal",
+    "key_facts": [
+      "Proposal titled 'Edge Analytics Rollout'",
+      "Feedback needed by Friday, August 1, 2026",
+      "Focus areas are budget assumptions and timeline risks",
+      "Document shared via shared drive link PROJ-EDGE-19"
+    ],
+    "tone": "casual",
+    "human_reference": "Subject: Feedback request — Edge Analytics Rollout\n\nHi team,\n\nI shared the draft proposal titled 'Edge Analytics Rollout' in shared drive link PROJ-EDGE-19.\n\nCould you review budget assumptions and timeline risks and send feedback by Friday, August 1, 2026?\n\nHappy to jump on a quick call if that is easier.\n\nThanks,\nDrew Coleman"
+  },
+  {
+    "id": "09",
+    "intent": "Negotiate revised contract terms with a SaaS vendor",
+    "key_facts": [
+      "Current contract renews on September 30, 2026",
+      "Request 12% discount for a 2-year commitment",
+      "Need SLA uptime guarantee of 99.9%",
+      "Decision needed before August 20, 2026"
+    ],
+    "tone": "persuasive",
+    "human_reference": "Subject: Renewal Terms for September 30, 2026 Contract\n\nHello Vendor Team,\n\nAs our current contract renews on September 30, 2026, we would like to finalize updated terms before August 20, 2026.\n\nWe are prepared to commit to a 2-year agreement in exchange for a 12% discount, provided the SLA uptime guarantee is set at 99.9%.\n\nThis structure gives both sides predictable value and stronger partnership continuity. Please share a revised quote reflecting these terms.\n\nBest regards,\nHarper Quinn\nHead of IT Procurement"
+  },
+  {
+    "id": "10",
+    "intent": "Welcome a new hire on their first day",
+    "key_facts": [
+      "Start date is October 6, 2026",
+      "Role is Senior Data Analyst on the Growth team",
+      "Orientation begins at 9:30 AM in Conference Room B",
+      "Manager is Lisa Ortiz"
+    ],
+    "tone": "casual",
+    "human_reference": "Subject: Welcome to the team — first day details\n\nHi Jordan,\n\nWelcome aboard! We are excited to have you join as Senior Data Analyst on the Growth team.\n\nYour start date is October 6, 2026. Orientation begins at 9:30 AM in Conference Room B. Your manager, Lisa Ortiz, will meet you there.\n\nIf you need anything before day one, just reply to this email.\n\nGlad to have you with us,\nChris Park\nPeople Operations"
+  }
+]

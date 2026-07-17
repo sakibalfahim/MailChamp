@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "MailChamp — Redacción de email IA empresarial",
+    "description": "Redacción de email IA de calidad Gmail con prompts avanzados, insights y archivo pulido."
+  },
+  "nav": {
+    "product": "Producto",
+    "blog": "Blog",
+    "docs": "Docs",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "insights": "Insights",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "openApp": "Abrir app",
+    "language": "Idioma",
+    "theme": "Tema",
+    "themeSystem": "Sistema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro"
+  },
+  "landing": {
+    "eyebrow": "Redacción IA empresarial",
+    "headline": "MailChamp",
+    "subhead": "Convierte intención, hechos y tono en borradores listos para la junta — acabado Gmail, prompts respaldados por investigación, cero ficción de bandeja.",
+    "ctaPrimary": "Empieza gratis",
+    "ctaSecondary": "Ver insights",
+    "scrollHint": "Desplázate la historia",
+    "story1Title": "Redacta con estrategia",
+    "story1Body": "Los prompts avanzados superan la baseline ingenua en nuestra eval Python — advanced gana con 0.878.",
+    "story2Title": "UX de archivo, no correo falso",
+    "story2Body": "Todo el correo, Borradores, Enviados, Archivo. Shell de tres paneles. Teclado primero. Sin teatro SMTP.",
+    "story3Title": "Gemini solo en el servidor",
+    "story3Body": "Las claves nunca tocan el navegador. Next emite un JWT corto a nuestra API Go en Render.",
+    "featureAi": "Cajón de redacción IA",
+    "featureAiDesc": "Intención, hechos clave, tono y estrategia — borradores TipTap en segundos.",
+    "featureMail": "Chrome de correo real",
+    "featureMailDesc": "Lista densa, panel de lectura, archivo, borrado duro — hecho para velocidad.",
+    "featureInsights": "Insights de evaluación",
+    "featureInsightsDesc": "Recharts de nuestro informe Python real — no vanity metrics."
+  },
+  "auth": {
+    "loginTitle": "Bienvenido de nuevo",
+    "signupTitle": "Crea tu cuenta",
+    "name": "Nombre",
+    "email": "Email",
+    "password": "Contraseña",
+    "submitLogin": "Iniciar sesión",
+    "submitSignup": "Crear cuenta",
+    "noForgot": "Recuerda tu contraseña — no hay reset por email en v1.",
+    "toLogin": "¿Ya tienes cuenta? Inicia sesión",
+    "toSignup": "¿Necesitas cuenta? Regístrate"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Notas sobre prompting, eval y craft de producto.",
+    "readMore": "Leer",
+    "englishOnly": "Artículo completo actualmente en inglés."
+  },
+  "docs": {
+    "title": "Docs",
+    "subtitle": "Sé productivo con MailChamp rápido.",
+    "gettingStarted": "Primeros pasos",
+    "gettingStartedBody": "Regístrate, abre Compose, introduce intención + hechos + tono, Generate, luego Save Draft o Mark Sent.",
+    "folders": "Carpetas",
+    "foldersBody": "Todo el correo muestra borradores y enviados. Borradores, Enviados y Archivo mapean 1:1 al estado. El borrado es permanente.",
+    "api": "API y seguridad",
+    "apiBody": "Gemini solo corre en Go. El navegador habla con Next; Next emite un JWT corto para la API. Arranque en frío hasta ~90s en free tier.",
+    "prompts": "Prompts",
+    "promptsBody": "Edita prompts/ raíz, sincroniza a api/prompts/, redespliega la API."
+  },
+  "pricing": {
+    "title": "Precios",
+    "subtitle": "Stack realmente a $0. Sin tarjetas. Sin sorpresas.",
+    "freeName": "Gratis para siempre",
+    "freePrice": "$0",
+    "freeDesc": "Compose completo, archivo e Insights para demos personales / portfolio.",
+    "freeCta": "Empezar",
+    "teamName": "Equipo (vista de estilo)",
+    "teamPrice": "Pronto",
+    "teamDesc": "Espacios compartidos y SSO aún no se envían — esta tarjeta es solo chrome enterprise.",
+    "teamCta": "Avisarme luego",
+    "note": "Vercel Hobby es no comercial. Si monetizamos después, dejamos Hobby — es política, no trampa de facturación hoy."
+  },
+  "about": {
+    "title": "Acerca de",
+    "body1": "MailChamp empezó como CLI de eval de investigación comparando prompts avanzados vs ingenuos.",
+    "body2": "Mantuvimos el pipeline Python como fuente de verdad de Insights y envolvimos el enfoque ganador con UX web calidad Gmail.",
+    "body3": "Filosofía de stack: poseer Postgres, secretos en servidor, mantenible a $0, pulido enterprise sin facturas enterprise."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Di hola — sin SMTP en v1; abrimos tu cliente de correo con un mensaje precargado.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "submit": "Abrir cliente de correo",
+    "hint": "Prefiere GitHub Issues cuando el repo esté publicado."
+  },
+  "footer": {
+    "tagline": "Compose IA estilo enterprise. Respaldo de investigación. Stack $0.",
+    "rights": "MailChamp"
+  },
+  "mail": {
+    "allMail": "Todo el correo",
+    "drafts": "Borradores",
+    "sent": "Enviados",
+    "archive": "Archivo",
+    "compose": "Redactar",
+    "insights": "Insights",
+    "signOut": "Cerrar sesión",
+    "search": "Buscar correo",
+    "waking": "Despertando API…"
+  }
+}

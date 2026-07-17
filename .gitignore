@@ -1,0 +1,57 @@
+# Secrets & env
+.env
+.env.*
+!.env.example
+!**/.env.example
+**/credentials*.json
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.ruff_cache/
+
+# Node / Next
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+web/.turbo/
+web/.vercel/
+
+# Go
+api/mailchamp-api
+api/*.exe
+*.exe
+
+# Tooling / local-only (not part of the product)
+.cursor/
+.cursorignore
+AGENTS.md
+**/AGENTS.md
+**/CLAUDE.md
+docs/HANDOFF.md
+docs/CURSOR.md
+debug-*.log
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Coverage / build
+coverage/
+dist/
+build/
+bin/

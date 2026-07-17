@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-07-15T18:38:15.899090+00:00",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metric_definitions": {
+    "fact_inclusion": {
+      "name": "Fact Inclusion Rate",
+      "focus": "Whether every required key fact appears in the generated email.",
+      "logic": "For each key fact, compute rapidfuzz token_set_ratio against the email (casefold). A fact counts as included if score >= 70 OR all salient tokens (numbers, proper names, acronyms) from the fact appear in the email. Metric = included_facts / total_facts.",
+      "automated": true,
+      "llm_judge": false
+    },
+    "tone_alignment": {
+      "name": "Tone Alignment Score",
+      "focus": "Whether the email matches the requested tone.",
+      "logic": "LLM-as-a-Judge (Gemini, temperature=0) using prompts/judge_tone.md. Judge returns JSON {\"score\": 0-1, \"rationale\": ...} scoring tone only. Parse failures retry once, else score 0.0.",
+      "automated": true,
+      "llm_judge": true
+    },
+    "professional_conciseness": {
+      "name": "Professional Conciseness",
+      "focus": "Tight, well-formed professional email structure and length.",
+      "logic": "Hybrid heuristic (no LLM): structure checks (subject, greeting, body, CTA, sign-off) weighted 0.4; length fit vs human reference word count weighted 0.4; density band (40-120 words with CTA) weighted 0.2. Final clipped to [0,1].",
+      "automated": true,
+      "llm_judge": false
+    }
+  },
+  "raw_scores": [
+    {
+      "scenario_id": "01",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.7151,
+      "mean": 0.905
+    },
+    {
+      "scenario_id": "02",
+      "strategy": "advanced",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.9532,
+      "mean": 0.9011
+    },
+    {
+      "scenario_id": "03",
+      "strategy": "advanced",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.8839,
+      "mean": 0.878
+    },
+    {
+      "scenario_id": "04",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.9143,
+      "mean": 0.8714
+    },
+    {
+      "scenario_id": "05",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.8345,
+      "mean": 0.9448
+    },
+    {
+      "scenario_id": "06",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.7333,
+      "mean": 0.8111
+    },
+    {
+      "scenario_id": "07",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.8684,
+      "mean": 0.9561
+    },
+    {
+      "scenario_id": "08",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.7926,
+      "mean": 0.8309
+    },
+    {
+      "scenario_id": "09",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.6714,
+      "mean": 0.7905
+    },
+    {
+      "scenario_id": "10",
+      "strategy": "advanced",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.9838,
+      "mean": 0.8946
+    },
+    {
+      "scenario_id": "01",
+      "strategy": "naive",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.6462,
+      "mean": 0.7987
+    },
+    {
+      "scenario_id": "02",
+      "strategy": "naive",
+      "fact_inclusion": 0.5,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.6091,
+      "mean": 0.703
+    },
+    {
+      "scenario_id": "03",
+      "strategy": "naive",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.5043,
+      "mean": 0.8348
+    },
+    {
+      "scenario_id": "04",
+      "strategy": "naive",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.5743,
+      "mean": 0.7581
+    },
+    {
+      "scenario_id": "05",
+      "strategy": "naive",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.6,
+      "mean": 0.8667
+    },
+    {
+      "scenario_id": "06",
+      "strategy": "naive",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.5,
+      "mean": 0.75
+    },
+    {
+      "scenario_id": "07",
+      "strategy": "naive",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 1.0,
+      "professional_conciseness": 0.6316,
+      "mean": 0.7939
+    },
+    {
+      "scenario_id": "08",
+      "strategy": "naive",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.6593,
+      "mean": 0.7864
+    },
+    {
+      "scenario_id": "09",
+      "strategy": "naive",
+      "fact_inclusion": 0.75,
+      "tone_alignment": 0.9,
+      "professional_conciseness": 0.5,
+      "mean": 0.7167
+    },
+    {
+      "scenario_id": "10",
+      "strategy": "naive",
+      "fact_inclusion": 1.0,
+      "tone_alignment": 0.7,
+      "professional_conciseness": 0.9243,
+      "mean": 0.8748
+    }
+  ],
+  "strategy_summary": {
+    "advanced": {
+      "fact_inclusion_avg": 0.95,
+      "tone_alignment_avg": 0.85,
+      "professional_conciseness_avg": 0.8351,
+      "overall_avg": 0.8783
+    },
+    "naive": {
+      "fact_inclusion_avg": 0.85,
+      "tone_alignment_avg": 0.9,
+      "professional_conciseness_avg": 0.6149,
+      "overall_avg": 0.7883
+    }
+  },
+  "winner": "advanced",
+  "overall_average_all": 0.8333
+}

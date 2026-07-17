@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mailchamp-api
+    runtime: go
+    plan: free
+    rootDir: api
+    buildCommand: go build -o mailchamp-api .
+    startCommand: ./mailchamp-api
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MAILCHAMP_JWT_SECRET
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3-flash-preview
+      - key: GEMINI_FALLBACKS
+        value: gemini-3.1-flash-lite-preview

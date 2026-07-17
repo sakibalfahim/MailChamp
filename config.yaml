@@ -1,0 +1,18 @@
+model: gemini-3-flash-preview
+model_fallbacks:
+  - gemini-3.1-flash-lite-preview
+temperature_generate: 0.4
+temperature_judge: 0.0
+request_delay_seconds: 15
+max_retries: 6
+strategies:
+  - advanced
+  - naive
+paths:
+  scenarios: data/scenarios.json
+  prompts:
+    advanced: prompts/advanced.md
+    naive: prompts/naive.md
+    judge_tone: prompts/judge_tone.md
+  results: results
+  generations: results/generations
