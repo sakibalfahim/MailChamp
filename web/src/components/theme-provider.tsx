@@ -98,7 +98,7 @@ export function useTheme() {
   if (!ctx) {
     return {
       theme: "system" as Theme,
-      setTheme: (_: Theme) => {},
+      setTheme: () => {},
       resolvedTheme: undefined as "light" | "dark" | undefined,
       themes: ["system", "light", "dark"] as Theme[],
       systemTheme: undefined as "light" | "dark" | undefined,
